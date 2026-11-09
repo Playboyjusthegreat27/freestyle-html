@@ -1,1 +1,3 @@
-The link is in the about tab, ignore the commits they don't work.
+The link is in the about tab, ignore the commits they don't work. Also it's kade sooo...
+
+Shout out to flowerbearttv for creating the code for the mod (it's a bit old)
