@@ -5,7 +5,8 @@
     left:  { key: "ArrowLeft",  code: "ArrowLeft",  keyCode: 37 },
     down:  { key: "ArrowDown",  code: "ArrowDown",  keyCode: 40 },
     up:    { key: "ArrowUp",    code: "ArrowUp",    keyCode: 38 },
-    right: { key: "ArrowRight", code: "ArrowRight", keyCode: 39 }
+    right: { key: "ArrowRight", code: "ArrowRight", keyCode: 39 },
+    enter: { key: "Enter", code: "Enter", keyCode: 13 }
   };
 
   const pressedPointers = new Map();
