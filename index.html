@@ -148,7 +148,7 @@
 			bottom: max(14px, env(safe-area-inset-bottom));
 			transform: translateX(-50%);
 			display: grid;
-			grid-template-columns: repeat(5, minmax(48px, 66px));
+			grid-template-columns: repeat(4, minmax(48px, 66px));
 			gap: clamp(6px, 2vw, 14px);
 			align-items: end;
 		}
@@ -193,7 +193,7 @@
 		@media (orientation: portrait) and (pointer: coarse) {
 			.mobile-pad {
 				bottom: max(18px, env(safe-area-inset-bottom));
-				grid-template-columns: repeat(5, minmax(52px, 72px));
+				grid-template-columns: repeat(4, minmax(52px, 72px));
 			}
 			.touch-btn { width: clamp(52px, 16vw, 72px); height: clamp(52px, 16vw, 72px); }
 		}
@@ -227,7 +227,6 @@
 			<button class="touch-btn" data-key="down" aria-label="Down">▼</button>
 			<button class="touch-btn" data-key="up" aria-label="Up">▲</button>
 			<button class="touch-btn" data-key="right" aria-label="Right">▶</button>
-			<button class="touch-btn" data-key="enter" aria-label="Enter or confirm">↵</button>
 		</div>
 		<button id="mobile-fullscreen" type="button" aria-label="Toggle fullscreen">⛶</button>
 	</div>
